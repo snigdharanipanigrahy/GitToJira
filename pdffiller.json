@@ -9,7 +9,7 @@
       {
         "version": "v2",
         "paging": {
-          "pagingMethod": "pagearguments",
+          "pagingMethod": "pageargumentsss",
           "pageArgument": "page"
         },
         "resources": [
