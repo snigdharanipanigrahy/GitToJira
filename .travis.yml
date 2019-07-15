@@ -1,18 +1,5 @@
 language: node_js
 node_js:
-- 10.15.1
-cache: npm
-
-install: - npm install
-
-script: 
- - npm test
- - npm run build
-
-deploy:
-  provider: Templates
-  skip-cleanup: true
-  github-token: $github-token  
-  on:
-    branch: master
+- "stable"
+script: add2numbers
 
