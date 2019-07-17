@@ -4,6 +4,6 @@ function sum() {
     var x = 9;
     var y = 10;
     z = x + y;
-    console.log(z)
+    console.log('Sum is'+z)
 }
 return sum()
