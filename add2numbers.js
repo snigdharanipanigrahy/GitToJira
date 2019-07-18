@@ -1,9 +1,10 @@
-var http = require("http");
-http.addNumber(function(req, res) {
-  var x,y;
-  x=9;
-  y=10;
-  z= x+y
-  console.log(z)
-})
+var http = require('http');
+var fs = require('fs');
+function sum() {
+    var x = 9;
+    var y = 10;
+    z = x + y;
+    console.log('Sum is'+z)
+}
+return sum()
 
