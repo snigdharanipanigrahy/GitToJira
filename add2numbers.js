@@ -3,8 +3,7 @@ var fs = require('fs');
 function sum() {
     var x = 90;
     var y = 109;
-    z = x + y;
+    z = x + i;
     console.log('Sum is'+z)
 }
 return sum()
-
