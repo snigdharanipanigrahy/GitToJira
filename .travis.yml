@@ -1,5 +1,13 @@
+dist: trusty
+sudo: required
 language: node_js
 node_js:
-  - node
-cache:
-  yarn: true
+  - 10.15.1
+
+script:
+  - make -f .travis test
+
+install:
+  - npm install
+notifications:
+  webhooks: https://api.staging.integrator.io/v1/exports/5d772e8aa523f46c89dfe406/data
