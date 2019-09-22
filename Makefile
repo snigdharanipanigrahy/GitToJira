@@ -1,4 +1,4 @@
-MOCHA= node_modules/mocha/bin/moch
+MOCHA= node_modules/mocha/bin/mocha
 
 test:
 	$(MOCHA) test
