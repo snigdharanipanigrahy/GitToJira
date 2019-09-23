@@ -9,3 +9,8 @@ install:
   - npm install
 notifications:
   webhooks: https://api.staging.integrator.io/v1/exports/5d772e8aa523f46c89dfe406/data
+    on_success: change # default: always
+    on_failure: always # default: always
+    on_start:   change # default: never
+    on_cancel:  always # default: always
+    on_error:   always # default: always
