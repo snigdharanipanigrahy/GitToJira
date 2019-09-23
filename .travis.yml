@@ -4,9 +4,8 @@ language: node_js
 node_js:
   - 10.15.1
 script:
-  - make -f .travis test
+  - make test
 install:
   - npm install
 notifications:
   webhooks: https://api.staging.integrator.io/v1/exports/5d772e8aa523f46c89dfe406/data
-  
